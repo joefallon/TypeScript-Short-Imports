@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "downlevelIteration": true,
+    "importHelpers": false,
+    "inlineSourceMap": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "skipLibCheck": true,
+    "strictFunctionTypes": true,
+    "target": "es5",
+    "lib": [
+      "es6",
+      "dom",
+      "scripthost"
+    ],
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": [ "deeply/nested/directory/components/*" ],
+      "@domain/*":     [ "other/domain/*" ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
